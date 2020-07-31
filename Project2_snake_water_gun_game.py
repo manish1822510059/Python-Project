@@ -3,7 +3,7 @@ list1=["snake","water","gun"]
 
 value=random.choice(list1)
 print("******Snake Water Gun Game******")
-name=input("Please Enter your name: ",upper())
+name=input("Please Enter your name: ".upper())
 cu=0
 cp=0
 c=5
