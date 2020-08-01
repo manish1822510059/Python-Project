@@ -59,7 +59,9 @@ while c>0:
         
 if(cu>cp):
     print(f"\c{name} is the Winner Your score:\t".upper(),cu)
-else:
+elif(cu==cp):
+     print("\nmatch is tie:\t".upper(),cp,cu)
+elif:        
     print("\nSorry Computer is a winner Computer score:\t".upper(),cp)
 
          
